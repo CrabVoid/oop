@@ -15,6 +15,7 @@ function getCarInfo($brand, $colour){
     return "Brand: " . $brand . ", Colour: " . $colour;
 }
 
+
 echo getCarInfo($brand, $colour);
 ?>
 
