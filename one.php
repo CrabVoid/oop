@@ -7,6 +7,12 @@
 </head>
 <body>
     
+    <form action="includes/signup.inc.php" method=>
+        <input type="text" name="username">
+        <input type="password" name="pwd">
+        <button>Signup</button>
+    </form>
+
 <?php
 require_once 'classes/car.php';
 
