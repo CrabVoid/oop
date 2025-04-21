@@ -8,15 +8,10 @@
 <body>
     
 <?php
-$brand = "audi";
-$colour = "black";
+require_once 'classes/car.php';
 
-function getCarInfo($brand, $colour){
-    return "Brand: " . $brand . ", Colour: " . $colour;
-}
-
-
-echo getCarInfo($brand, $colour);
+$car01 = new Car("Audi", "blue");
+$car01->trim;
 ?>
 
 </body>
