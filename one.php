@@ -11,7 +11,9 @@
 require_once 'classes/car.php';
 
 $car01 = new Car("Audi", "blue");
-$car01->trim;
+echo $car01->setColour("white");
+echo $car01->getColour();
+
 ?>
 
 </body>
